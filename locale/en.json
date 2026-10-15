@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-ops",
+    "description": "Rust-powered file tools and PTC batching for macOS DSH to improve token efficiency (ported from T-Auto/dsh-ops)"
+  }
+}

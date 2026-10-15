@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-ops",
+    "description": "为 macOS 的 dsh 提供一系列 Rust 编写的高性能文件工具与 PTC 批处理，提高 token 效率（移植自 Windows 版 dsh-ops）"
+  }
+}

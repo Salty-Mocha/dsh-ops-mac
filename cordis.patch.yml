@@ -1,0 +1,17 @@
+# Two components for the macOS port. PTC is opt-in, scoped to pure PTC sessions.
+# The upstream shell and background components are removed in this port: the
+# bundled MSYS bash / PowerShell payloads are Windows-only, and the macOS host
+# already runs bash under its own seatbelt confinement. See README.md.
+- insert:
+    - id: dsh-ops-file
+      name: dsh-ops/file
+      config:
+        promptPolicy: true
+        enableShellTools: false
+        required: false
+        toolCallTimeoutMs: 300000
+    - id: dsh-ops-ptc
+      name: dsh-ops/ptc
+      disabled: false
+      config:
+        required: false

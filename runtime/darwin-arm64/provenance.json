@@ -1,0 +1,1 @@
+{"schemaVersion":1,"target":"darwin-arm64","version":"0.3.0-mac.1","executable":"dsh-ops-worker","sha256":"dc26284179a099f5160f0547040632e2f33d269ba86491c1f7f8e2829020f58e","source":"local build from T-Auto/dsh-ops e6160ba native/ (cargo build --release, macOS arm64)"}
