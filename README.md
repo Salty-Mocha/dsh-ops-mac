@@ -1,6 +1,8 @@
 # dsh-ops-mac
 
 [![origin](https://img.shields.io/badge/origin-T--Auto%2Fdsh--ops-blue)](https://github.com/T-Auto/dsh-ops)
+[![Powered by DeepSeek](https://img.shields.io/badge/Powered_by-DeepSeek-4D6BFE)](https://github.com/deepseek-ai)
+[![Powered by GLM](https://img.shields.io/badge/Powered_by-GLM-3B82F6)](https://github.com/zai-org)
 
 **macOS（Apple Silicon）移植版**的 [dsh-ops](https://github.com/T-Auto/dsh-ops) —— 一个 DSH（DeepSeek Harness）性能工具插件：用 Rust 重写文件检索与批处理工具，减少 AI 编码时的 token 消耗、报错循环和任务耗时。
 
@@ -100,6 +102,24 @@ cd native && cargo build --release
 
 ## 致谢
 
-- 上游项目与 Windows 实现：[T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) 的作者与贡献者
+### 上游项目
+
+- 上游项目与 Windows 实现：[T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) 的作者与贡献者：
+  [![T-Auto](https://img.shields.io/badge/-T--Auto-181717?logo=github&labelColor=555)](https://github.com/T-Auto)
+  [![Haoming9527](https://img.shields.io/badge/-Haoming9527-181717?logo=github&labelColor=555)](https://github.com/Haoming9527)
+  [![baobaolaodie](https://img.shields.io/badge/-baobaolaodie-181717?logo=github&labelColor=555)](https://github.com/baobaolaodie)
+  [![ViscaOwO](https://img.shields.io/badge/-ViscaOwO-181717?logo=github&labelColor=555)](https://github.com/ViscaOwO)
+  [![Arutoria2024](https://img.shields.io/badge/-Arutoria2024-181717?logo=github&labelColor=555)](https://github.com/Arutoria2024)
+  [![PPPPetermosaic](https://img.shields.io/badge/-PPPPetermosaic-181717?logo=github&labelColor=555)](https://github.com/PPPPetermosaic)
+  [![WTStarMark](https://img.shields.io/badge/-WTStarMark-181717?logo=github&labelColor=555)](https://github.com/WTStarMark)
+  [![CNyaotian-Lunar](https://img.shields.io/badge/-CNyaotian--Lunar-181717?logo=github&labelColor=555)](https://github.com/CNyaotian-Lunar)
+  （完整名单见上游 [contributors 页](https://github.com/T-Auto/dsh-ops/graphs/contributors)）
 - Rust 核心来源：[yc-duan/fastctx](https://github.com/yc-duan/fastctx)
-- 宿主平台：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
+
+### 平台与工具
+
+[![Powered by DeepSeek](https://img.shields.io/badge/Powered_by-DeepSeek-4D6BFE)](https://github.com/deepseek-ai)
+[![Powered by GLM](https://img.shields.io/badge/Powered_by-GLM-3B82F6)](https://github.com/zai-org)
+
+- 宿主平台：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（[deepseek-ai](https://github.com/deepseek-ai)）
+- 本移植版的代码由 [DeepSeek](https://github.com/deepseek-ai) 驱动的编码 agent 完成（模型：GLM，由 [zai-org](https://github.com/zai-org) 训练），发布者与验证者：[Salty-Mocha](https://github.com/Salty-Mocha)。两个组织官方并未参与本项目，特此说明。
